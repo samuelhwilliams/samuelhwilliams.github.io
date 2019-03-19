@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.salutation {
+    display: block;
+    text-align: center;
+}
+
+.page {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.page--short {
+    min-height: 50%;
+}
+
+.face {
+    overflow: hidden;
+
+    background-image: url("../images/face-STOCK.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 10vh;
+
+    text-shadow: -0.02em -0.02em 0 #000, -0.02em 0.02em 0 #000, 0.02em -0.02em 0 #000, 0.02em 0.02em 0 #000
+}
+
+.salutation {
+    font-size: 0.9em;
+}
+
+.panel {
+    max-width: 800px;
+    margin: auto;
+}
+
+.list {
+    list-style: unset;
+    padding-inline-start: unset;
+}
+
+.list__item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.list__item--one-third {
+    width: 33%;
+}
+
+.list__item--one-sixth {
+    width: 16%;
+}
