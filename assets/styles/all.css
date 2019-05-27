@@ -1,7 +1,57 @@
+:root {
+    --color1: rgba(0, 0, 0, 1);
+    --color2: rgba(20, 33, 61, 1);
+    --color3: rgba(252, 163, 17, 1);
+    --color4: rgba(229, 229, 229, 1);
+    --color5: rgba(255, 255, 255, 1);
+
+    --white: #ffffff;
+    --base-colour: #0A1128;
+    --accent-colour: var(--color3);
+}
+
 html, body {
     margin: 0;
     width: 100%;
     height: 100%;
+
+    font-family: 'Raleway';
+    color: var(--white);
+}
+
+.row--one-third {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.row--two-thirds {
+    flex-grow: 2;
+}
+
+.name {
+    color: var(--accent-colour)
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.flex--horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.heading {
+    display: block;
+    font-weight: bold;
+
+    font-size: 2.5em;
 }
 
 .salutation {
@@ -9,40 +59,22 @@ html, body {
     text-align: center;
 }
 
-.page {
+.face {
     min-width: 100%;
     min-height: 100%;
-}
 
-.page--short {
-    min-height: 50%;
-}
-
-.face {
     overflow: hidden;
 
-    background-image: url("../images/face-STOCK.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    font-size: 10vh;
-
-    text-shadow: -0.02em -0.02em 0 #000, -0.02em 0.02em 0 #000, 0.02em -0.02em 0 #000, 0.02em 0.02em 0 #000
+    background-color: var(--base-colour)
 }
 
-.salutation {
-    font-size: 0.9em;
+.section-list {
+    list-style: unset;
 }
 
-.panel {
-    max-width: 800px;
-    margin: auto;
+.section-list li {
+    display: inline;
+    padding-right: 2em;
 }
 
 .list {
@@ -53,13 +85,24 @@ html, body {
 .list__item {
     display: inline-block;
     width: 100%;
-    margin-bottom: 1em;
+    /* margin-bottom: 0em; */
 }
 
-.list__item--one-third {
-    width: 33%;
+.details {
+    list-style-image: none;
+    list-style-type: none;
+    /* background: rgba(126, 126, 126, .5); */
 }
 
-.list__item--one-sixth {
-    width: 16%;
+.details[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+
+.details summary::-webkit-details-marker {
+    display: none;
 }
