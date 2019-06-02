@@ -12,6 +12,10 @@
     display: none;
 }
 
+.details summary {
+    list-style: none;
+}
+
 summary:hover {
     color: var(--accent-colour);
     cursor: pointer;
