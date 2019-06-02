@@ -5,8 +5,8 @@
     --color4: rgba(229, 229, 229, 1);
     --color5: rgba(255, 255, 255, 1);
 
-    --white: #ffffff;
-    --base-colour: #0A1128;
+    --white: rgba(255, 255, 255, 1);
+    --base-colour: rgba(10, 17, 40, 0.85);
     --accent-colour: var(--color3);
 }
 
