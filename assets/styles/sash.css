@@ -11,8 +11,6 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 
-    box-shadow: 0 0 25px var(--white);
-
     transform: rotate(-45deg);
 }
 
