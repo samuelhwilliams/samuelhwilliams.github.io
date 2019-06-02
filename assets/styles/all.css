@@ -1,5 +1,5 @@
 /* Base HTML element styles and overrides */
-@import url("_base.css");
+@import url("base.css");
 
 @import url("details.css");
 @import url("layout.css");
