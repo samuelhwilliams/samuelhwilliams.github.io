@@ -23,6 +23,14 @@ acronym {
     text-decoration: none;
 }
 
+.link {
+
+}
+
+.link--white {
+    color: var(--white);
+}
+
 .sash {
     width: 200px;
     background: var(--accent-colour);
