@@ -1,0 +1,23 @@
+.details {
+    list-style-image: none;
+    list-style-type: none;
+    /* background: rgba(126, 126, 126, .5); */
+}
+
+.details[open] summary ~ * {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.details summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:focus {
+    color: var(--accent-colour);
+    outline-color: var(--accent-colour)
+}
+
+@keyframes fade-in {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}

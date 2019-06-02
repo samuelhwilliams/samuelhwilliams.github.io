@@ -1,0 +1,20 @@
+:root {
+    --color1: rgba(0, 0, 0, 1);
+    --color2: rgba(20, 33, 61, 1);
+    --color3: rgba(252, 163, 17, 1);
+    --color4: rgba(229, 229, 229, 1);
+    --color5: rgba(255, 255, 255, 1);
+
+    --white: rgba(255, 255, 255, 1);
+    --base-colour: rgba(40, 50, 60, 1);
+    --accent-colour: var(--color3);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+acronym {
+    text-decoration: none;
+}

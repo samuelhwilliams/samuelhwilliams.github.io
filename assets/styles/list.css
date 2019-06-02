@@ -1,0 +1,18 @@
+.list {
+    list-style: unset;
+    padding-inline-start: unset;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.list--horizontal {
+    flex-direction: row;
+}
+
+.list__item {
+    flex: 1;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}

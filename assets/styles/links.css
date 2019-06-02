@@ -1,0 +1,7 @@
+.link {
+    outline-color: var(--accent-colour)
+}
+
+.link--white {
+    color: var(--white);
+}
