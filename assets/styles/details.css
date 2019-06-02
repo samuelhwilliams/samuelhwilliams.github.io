@@ -12,6 +12,11 @@
     display: none;
 }
 
+.details:hover {
+    color: var(--accent-colour);
+    cursor: pointer;
+}
+
 summary:focus {
     color: var(--accent-colour);
     outline-color: var(--accent-colour)
