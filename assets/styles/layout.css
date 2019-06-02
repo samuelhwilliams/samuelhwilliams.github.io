@@ -1,7 +1,5 @@
 .body {
     margin: 0;
-    margin-top: 50px;
-
     width: 100%;
     min-height: calc(100% - 50px);
     font-family: 'Raleway';
@@ -11,23 +9,15 @@
     justify-content: center;
 }
 
-.main-wrapper {
-    margin: 0 50px;
-    height: 100%;
+.width-container {
     max-width: 990px;
 }
 
 .main {
     height: 100%;
-    max-width: 990px;
-    /* margin: auto; */
+    margin-top: 50px;
 
     overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
 }
 
 .row {
