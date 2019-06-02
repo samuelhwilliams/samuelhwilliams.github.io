@@ -19,6 +19,33 @@ html, body {
     color: var(--white);
 }
 
+acronym {
+    text-decoration: none;
+}
+
+.sash {
+    width: 200px;
+    background: var(--accent-colour);
+    position: fixed;
+    top: 25px;
+    left: -50px;
+    text-align: center;
+    letter-spacing: .25em;
+    font-weight: bold;
+    color: var(--base-colour);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+    box-shadow: 0 0 25px var(--white);
+
+    transform: rotate(-45deg);
+}
+
+.sash p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .row--one-third {
     flex-grow: 1;
     display: flex;
