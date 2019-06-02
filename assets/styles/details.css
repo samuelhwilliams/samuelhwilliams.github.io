@@ -12,7 +12,7 @@
     display: none;
 }
 
-.details:hover {
+summary:hover {
     color: var(--accent-colour);
     cursor: pointer;
 }

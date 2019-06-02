@@ -1,13 +1,6 @@
 .list {
     list-style: unset;
     padding-inline-start: unset;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.list--horizontal {
-    flex-direction: row;
 }
 
 .list__item {

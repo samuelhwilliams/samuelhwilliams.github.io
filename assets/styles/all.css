@@ -20,6 +20,36 @@
     font-size: 2.5em;
 }
 
-.salutation {
+.block {
     display: block;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex--horizontal {
+    flex-direction: row;
+}
+
+.flex--central {
+    justify-content: center;
+    align-items: center;
+}
+
+.override-margin-top-small {
+    margin-top: 5px;
+}
+
+.override-margin-left-small {
+    margin-left: 5px;
+}
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0; border: 0;
 }
