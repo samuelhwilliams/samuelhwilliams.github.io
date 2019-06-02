@@ -3,10 +3,11 @@
 My personal website advertising past work experience, projects, and contact details.
 
 ## To Do
+* Fix <a> keyboard navigation inside <details> for safari/firefox/(everything except chrome?)
 * Update (read: create) tablet/mobile layout
+* Create frame 2: 'digital CV' - expand upon work experience, skills, projects, etc
+* Create frame 3: 'contact me' - form at the bottom.
 * Add ambient animation to header page
-* Turn page into a 'digital CV' - expand upon work experience, skills, projects, etc
-* Add 'contact me' form at the bottom.
 * Firm up CSS structure
 * Choose a proper colour scheme
-* Scrape projects from GitHub?
+* Add traditional CV download link?
